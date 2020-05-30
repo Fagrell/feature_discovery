@@ -447,7 +447,7 @@ class _DescribedFeatureOverlayState extends State<DescribedFeatureOverlay>
   }
 
   bool _isCloseToTopOrBottom(Offset position) =>
-      position.dy <= 88.0 || (_screenSize.height - position.dy) <= 88.0;
+      position.dy <= 130.0 || (_screenSize.height - position.dy) <= 130.0;
 
   bool _isOnTopHalfOfScreen(Offset position) =>
       position.dy < (_screenSize.height / 2.0);
